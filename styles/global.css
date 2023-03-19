@@ -1,16 +1,18 @@
 body{
-    background-color: #000;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
 }
 
 
 .container{
-    display: flex;
     max-width: 1440px;
     margin: 0px auto;
-    justify-content: flex-start;
     height: auto;
+}
+
+.container.flex{
+    justify-content: flex-start;
+    display: flex;
 }
 
 main{
